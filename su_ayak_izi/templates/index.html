@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<h1>Su Ayak İzi Takip Sistemi</h1>
+
+<form method="POST" action="/results">
+  <label for="showers_per_day">Günde kaç kez duş alırsın?</label>
+  <input type="number" id="showers_per_day" name="showers_per_day" min="0" required>
+
+  <label for="shower_duration">Bir duşun ortalama kaç dakika sürer?</label>
+  <input type="number" id="shower_duration" name="shower_duration" min="0" required>
+
+  <label for="laundry_per_week">Günde kaç kez çamaşır makinesi çalıştırırsın?</label>
+  <input type="number" id="laundry_per_week" name="laundry_per_week" min="0" required>
+
+  <label>Bulaşıkları elde mi yıkıyorsun?</label>
+  <select name="hand_wash_dishes" required>
+    <option value="yes">Evet</option>
+    <option value="no">Hayır</option>
+  </select>
+
+  <label>Duş sırasında suyu kapatma alışkanlığın var mı?</label>
+  <select name="shower_water_saving" required>
+    <option value="yes">Evet</option>
+    <option value="no">Hayır</option>
+  </select>
+
+  <label>Et ağırlıklı mı besleniyorsun?</label>
+  <select name="meat_based_diet" required>
+    <option value="yes">Evet</option>
+    <option value="no">Hayır</option>
+  </select>
+
+  <label>Musluklardan akan suyu kapatır mısın diş fırçalarken?</label>
+  <select name="toothbrush_water_saving" required>
+    <option value="yes">Evet</option>
+    <option value="no">Hayır</option>
+  </select>
+
+  <label>Musluklarda su tasarruf başlığı var mı?</label>
+  <select name="saving_head" required>
+    <option value="yes">Evet</option>
+    <option value="no">Hayır</option>
+  </select>
+
+  <label>Bahçe sulaması yapıyor musun?</label>
+  <select name="garden_watering" required>
+    <option value="yes">Evet</option>
+    <option value="no">Hayır</option>
+  </select>
+
+  <label>Evde sızıntı yapan musluk veya boru var mı?</label>
+  <select name="leakage" required>
+    <option value="yes">Evet</option>
+    <option value="no">Hayır</option>
+  </select>
+
+  <button type="submit">Hesapla</button>
+</form>

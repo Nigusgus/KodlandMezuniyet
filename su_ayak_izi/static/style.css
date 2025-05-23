@@ -1,0 +1,125 @@
+/* Genel body ayarları */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #e0f7fa;
+  margin: 0;
+  padding: 20px;
+  color: #004d40;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Başlıklar */
+h1 {
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  color: #00796b;
+  text-align: center;
+}
+
+h2 {
+  margin: 15px 0;
+  color: #004d40;
+  text-align: center;
+}
+
+/* Form alanı */
+form {
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 77, 64, 0.2);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Label stili */
+label {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: #00695c;
+  display: block;
+}
+
+/* Input ve select ortak stili */
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 2px solid #004d40;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #004d40;
+  outline: none;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+input[type="number"]:focus,
+select:focus {
+  border-color: #00796b;
+  background-color: #e0f2f1;
+}
+
+/* Buton stili */
+button {
+  margin-top: 10px;
+  background-color: #00796b;
+  color: white;
+  padding: 14px 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 121, 107, 0.4);
+}
+
+button:hover {
+  background-color: #004d40;
+}
+
+/* Sonuç sayfası için */
+h2 span {
+  color: #00796b;
+  font-weight: 900;
+}
+
+/* Link stili */
+a {
+  text-decoration: none;
+  color: #00796b;
+  font-weight: 600;
+  margin-top: 15px;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #004d40;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  form {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 12px 0;
+  }
+}

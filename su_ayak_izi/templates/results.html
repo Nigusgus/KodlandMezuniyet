@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sonuçlar</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Su Ayak İzin Hesaplandı</h1>
+  <h2>Toplam Su Tüketimin: <span>{{ total_litres }}</span> litre</h2>
+  <a href="/">Tekrar Hesapla</a>
+</body>
+</html>
