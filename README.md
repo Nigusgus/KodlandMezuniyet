@@ -1,2 +1,4 @@
-# Su ayak izi takip sistemi
-Kullanıcının tükettiği gizli suyu hesaplar
+Su Ayak İzi Takip Sistemi
+Bu proje, Flask kullanılarak geliştirilmiş basit bir web uygulamasıdır ve kullanıcıların günlük su tüketim alışkanlıklarını takip etmeyi amaçlar. Uygulama, günde kaç kez duş alındığı, duş süresi, diş fırçalarken musluğun kapatılıp kapatılmadığı, musluklarda su tasarruf başlığı olup olmadığı, bahçe sulaması yapılıp yapılmadığı ve evde su sızıntısı gibi faktörleri dikkate alarak toplam su tüketimini hesaplar. Proje Python 3, Flask, HTML ve CSS teknolojileri kullanılarak geliştirilmiştir. Kullanıcılar kolayca formu doldurarak su tüketimlerini öğrenebilir ve böylece su tasarrufu konusunda bilinçlenebilirler. Projeyi çalıştırmak için öncelikle Flask kütüphanesi yüklenmeli, ardından app.py dosyası çalıştırılarak web arayüzü aktif hale getirilmelidir. Daha detaylı bilgi ve kaynaklar için Water Footprint Network (https://waterfootprint.org/en/), UN Water (https://www.unwater.org/water-facts/water-use/) ve EPA WaterSense (https://www.epa.gov/watersense) gibi siteler referans alınmıştır. İnsan gibi yaşa, doğaya saygı göster! 🌍💧
+
+
